@@ -187,10 +187,20 @@ header
 
 /* responsive for mobile */
 @media screen and (max-width:688px) {
+    .row
+    {
+        margin: 0px 0px !important;
+    }
     header
     {
         background-image: none;
         
+    }
+    .header-text-images
+    {
+        padding: 0px !important;
+        position: relative;
+        top: 100px;
     }
     .header-text h1{
         font-size: 47px;
