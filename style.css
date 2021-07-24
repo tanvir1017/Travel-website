@@ -1,5 +1,5 @@
 /* font collections */
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 /* font collections */
 html
 {
@@ -15,7 +15,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6
 {
-    font-family: 'Zen Tokyo Zoo', cursive !important;
+    font-family: 'Rubik', sans-serif !important;
 }
 .my-navbar
 {
@@ -51,12 +51,11 @@ header
     color: #DF6951;
 }
 .header-text h1{
-    font-size: 106px;
+    font-size: 84px;
     font-weight: bolder;
-    line-height: 68px;
     letter-spacing: 0px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-top: -15px;
     color: #DF6951;
 }
 .header-text small > p
@@ -98,3 +97,132 @@ header
     height: auto;
 }
 /* header section here */
+
+/* main start from here */
+.categorys{
+    margin: 110px auto;
+}
+.categorys-title
+{
+    font-size: 50px;
+}
+.c-text
+{
+    font-size: 21px;
+    color: gray;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+}
+.categorys-text
+{
+    margin: 68px auto 0px;
+    height: 216px;
+    position: relative;
+        
+}
+.categorys-text h5{
+    font-size: 17px;
+    margin-top: 95px;
+}
+.categorys-text p
+{
+    margin: 12px auto 0px;
+    width: 181px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: gray;
+}
+.categorys-text img
+{
+    width: 68px;
+    text-align: center;
+    position: absolute;
+    left: 128px;
+}
+.plane-div
+{
+    border-radius: 40px;
+    box-shadow: 5px 0px 16px 3px rgb(0 0 0 / 24%);
+    width: 230px;
+    height: 251px;
+}
+.plane
+{
+    width: 118px !important;
+    position: absolute!important;
+    left: 75px !important;
+    top: -15px;
+}
+.local-events
+{
+    width: 56px !important;
+}
+
+/* main start from here */
+
+/* responsive for mobile */
+@media screen and (max-width:688px) {
+    header
+    {
+         background-size: cover;
+         background-position: right;
+    }
+    .header-text h1{
+        font-size: 47px;
+        font-weight: bolder;
+        letter-spacing: 0px;
+        margin-bottom: 19px;
+        margin-top: -15px;
+        color: #DF6951;
+    }
+    .header-text small > p
+    {
+        font-size: 18px;
+        width: 327px;
+        height: auto;
+        text-align: justify;
+    }
+    .header-text-btn img {
+        width: 85px;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: -13%;
+    }
+    .right-side-image img
+    {   
+        width: 400px;        
+        height: auto;        
+        position: relative;        
+        left: -80px;        
+        top: 69px;
+    }
+    .categorys{
+        margin: 250px auto 0px;
+    }
+}
+/* responsive for mobile */
+
+/* responsive for tablet */
+@media screen and (max-width:992px) {
+    header
+    {
+        background-size: cover;
+    }
+    .header-text h1{
+        font-size: 47px;
+        font-weight: bolder;
+        letter-spacing: 0px;
+        margin-bottom: 19px;
+        margin-top: -15px;
+        color: #DF6951;
+    }
+    .my-navbar ul li
+    {   
+        margin: 0px;
+        color: black !important;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+/* responsive for tablet */
