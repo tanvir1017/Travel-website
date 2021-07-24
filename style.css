@@ -233,7 +233,18 @@ header
         top: 69px;
     }
     .categorys{
-        margin: 250px auto 0px;
+        margin: 280px auto 0px;
+    }
+    .destination-card{
+        width: 330px;
+        height: 541px;
+        margin: 70px auto 0px;
+        box-shadow: 2px 0px 8px 3px rgb(0 0 0 / 13%);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        padding: 0px !important;
     }
 }
 /* responsive for mobile */
