@@ -158,14 +158,42 @@ header
     width: 56px !important;
 }
 
+/* Destinations section */
+.destination-card{
+    width: 377px;
+    height: 541px;
+    margin: 70px auto 0px;
+    box-shadow: 2px 0px 8px 3px rgb(0 0 0 / 13%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0px !important;
+}
+
+.destination-card img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.destination-text p {
+    margin-bottom: 6px;
+    color: gray;
+}
+/* Destinations section */
+
 /* main start from here */
 
 /* responsive for mobile */
 @media screen and (max-width:688px) {
     header
     {
-         background-size: cover;
-         background-position: right;
+        background-image: url(images/elements/Decore.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        
     }
     .header-text h1{
         font-size: 47px;
