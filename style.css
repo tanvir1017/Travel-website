@@ -109,7 +109,7 @@ header
 .c-text
 {
     font-size: 21px;
-    color: gray;
+    color: #5E6282;
     margin-bottom: 3px;
     letter-spacing: 2px;
 }
@@ -130,7 +130,7 @@ header
     width: 181px;
     font-size: 13px;
     margin-bottom: 0px;
-    color: gray;
+    color: #5E6282;
 }
 .categorys-text img
 {
@@ -179,9 +179,151 @@ header
 }
 .destination-text p {
     margin-bottom: 6px;
-    color: gray;
+    color: #5E6282;
 }
 /* Destinations section */
+
+/* next trip section */
+.trip-title{
+    font-size: 60px;
+}
+.next-trip-info{
+    width: 396px;
+}
+.trip-icon{
+    width: 56px;
+    height: auto;
+}
+.trip-text{
+    margin-left: 28px;
+}
+
+.trip-text h4{
+    color: #5E6282;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+.trip-text p{
+    margin-bottom: 0px;
+    width: 350px;
+}
+.card{
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 120px;
+    width: 280px;
+    height: 350px;
+    border: none !important;
+    box-shadow: 2px 0px 8px 3px rgb(0 0 0 / 13%);
+}
+.card-body
+{
+    margin-top: 4px;
+    margin-left: -11px;
+}
+.card-body h4{
+    color: #5E6282;
+}
+.card-body p
+{
+    color: #5E6282;
+}
+.card img
+{
+    border-radius: 25px;
+}
+.second-card
+{
+    position: absolute;
+    padding: 13px;
+    width: 320px;
+    height: 127px;
+    left: 255px;
+    top: 131px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px 3px rgb(0 0 0 / 21%);
+    z-index: 10;
+    background: white;
+}
+.second-card img
+{
+    width: 40px;
+    border-radius: 100%;
+    position: relative;
+    top: -19px;
+}
+.second-card-body
+{
+    margin-left: 13px;
+}
+.second-card-body p {
+    margin-bottom: 3px;
+}
+.my-progress
+{
+    position: absolute;
+    top: 101px;
+    width: 92%;
+}
+/* next trip section */
+
+/* compliment section  */
+.compliment
+{
+    margin: 110px auto;
+}
+.sliders{
+    margin-top: 170px;
+}
+.slider-icon-1
+{
+    margin-left: 10px;
+    background:#DF6951 ;
+    height: 10px;
+    width: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.slider-icon
+{
+    margin-left: 10px;
+    background:#9a9ba1 ;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.slider-icon:hover{
+    transition: .5s;
+    background: #DF6951;
+}
+.compliment-right{
+    position: relative;
+    background-image: url(images/elements/Pagination.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 90px;
+}
+.right-side-compliment
+{
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    width: 475px;
+    height: 245px;
+    box-shadow: 0px 5px 8px 3px rgb(0 0 0 / 21%);
+}
+.right-side-compliment img
+{
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    transform: translate(-50%, -50%);
+}
+/* compliment section  */
+
 
 /* main start from here */
 
@@ -245,6 +387,21 @@ header
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         padding: 0px !important;
+    }
+    .right-side-compliment img
+    {
+        position: absolute;
+        top: -4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .compliment
+    {
+        margin: 180px auto 100px;
+    }
+    .sliders
+    {
+        margin-top: 70px;
     }
 }
 /* responsive for mobile */
