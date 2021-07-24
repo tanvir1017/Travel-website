@@ -189,10 +189,7 @@ header
 @media screen and (max-width:688px) {
     header
     {
-        background-image: url(images/elements/Decore.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
+        background-image: none;
         
     }
     .header-text h1{
