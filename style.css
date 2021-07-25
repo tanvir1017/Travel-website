@@ -381,11 +381,11 @@ header
         font-size: 40px;
     }
     .next-trip-info{
-        width: 396px;
+        width: 346px;
         overflow: hidden;
     }
     .trip-icon{
-        width: 46px;
+        width: 40px;
         height: auto;
     }
     .trip-text{
@@ -399,7 +399,7 @@ header
     }
     .trip-text p{
         margin-bottom: 0px;
-        width: 350px;
+        width: 300px;
         overflow: hidden;
     }
     .destination-card{
@@ -443,7 +443,7 @@ header
         border-radius: 30px;
         position: relative;
         left: 67px;
-        top: 49px;
+        top: 49px !important;
         width: 280px;
         height: 350px;
         border: none !important;
@@ -461,11 +461,7 @@ header
         background: white;
     }
     .compliment-right{
-        position: relative;
-        background-image: url(images/elements/Pagination.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        margin-top: 90px;
+        display: none;
     }
 }
 /* responsive for mobile */
