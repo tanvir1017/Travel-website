@@ -455,7 +455,7 @@ footer{
         padding: 10px;
         border-radius: 30px;
         position: relative;
-        left: -1px !important;
+        left: -10px !important;
         top: 49px !important;
         width: 280px;
         height: 350px;
