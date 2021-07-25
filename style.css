@@ -398,11 +398,11 @@ footer{
         overflow: hidden;
     }
     .trip-icon{
-        width: 40px;
+        width: 35px;
         height: auto;
     }
     .trip-text{
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .trip-text h4{
@@ -412,7 +412,7 @@ footer{
     }
     .trip-text p{
         margin-bottom: 0px;
-        width: 300px;
+        width: 250px;
         overflow: hidden;
     }
     .destination-card{
@@ -455,7 +455,7 @@ footer{
         padding: 10px;
         border-radius: 30px;
         position: relative;
-        left: 67px;
+        left: 10px !important;
         top: 49px !important;
         width: 280px;
         height: 350px;
