@@ -324,6 +324,19 @@ header
 }
 /* compliment section  */
 
+footer{
+    background-color: #5E6282;
+    color:white;
+    padding: 50px 20px;
+}
+.footer-text h2
+{
+    margin-bottom: 10px !important;
+}
+.footer-text p
+{
+    margin: 0px !important;
+}
 
 /* main start from here */
 
